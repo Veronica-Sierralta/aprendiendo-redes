@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T15:06:17.621Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" etag="nahjAXkPIhB5j-Tm4O4E" version="16.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-02T15:41:18.593Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" etag="NxB4JDvqKE3HyKR8Cs3o" version="16.6.4" type="github" pages="4">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="DER">
     <mxGraphModel dx="1038" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -628,6 +628,75 @@
       <root>
         <mxCell id="r8zOLwxq6xb8gx_-kWiw-0" />
         <mxCell id="r8zOLwxq6xb8gx_-kWiw-1" parent="r8zOLwxq6xb8gx_-kWiw-0" />
+        <mxCell id="r8zOLwxq6xb8gx_-kWiw-4" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;text-align: justify ; margin: 0cm -0.55pt 0.0001pt 63.1pt ; text-indent: -18pt&quot;&gt;&lt;span style=&quot;font-stretch: normal ; font-size: 7pt ; line-height: normal ; font-family: &amp;#34;times new roman&amp;#34;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;text-indent: -18pt ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;Uma loja pretende construir uma base de dados com&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: -18pt&quot;&gt;informação relevante sobre os discos que vende.&lt;/span&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-top: 0cm ; margin-right: -0.55pt ; margin-bottom: 0cm ; margin-left: 63.85pt ; margin-bottom: 0.0001pt ; text-indent: 0cm&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;Relativamente a&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;cada disco, pretende registar na base de dados um código identificativo, o&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;título, nº de cópias vendidas, data de gravação e o grupo/intérprete. Pretende&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;também registar as músicas que cada disco inclui. Sobre cada música, pretende&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;registar o título que identifica a música e o primeiro autor. Uma mesma música&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;pode figurar em discos distintos.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="r8zOLwxq6xb8gx_-kWiw-1">
+          <mxGeometry x="30" y="20" width="710" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zOLwxq6xb8gx_-kWiw-5" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal ; text-align: justify ; text-indent: 0cm&quot;&gt;Disco(códigoDisco, &lt;/span&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal ; text-align: justify ; text-indent: 0cm&quot;&gt;título, copiasVendidas, data_gravação, grupo/intérprete&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="r8zOLwxq6xb8gx_-kWiw-1">
+          <mxGeometry x="40" y="140" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zOLwxq6xb8gx_-kWiw-6" value="Disco" style="whiteSpace=wrap;html=1;align=center;fillColor=#0050ef;fontColor=#ffffff;fontStyle=1;strokeColor=#001DBC;" vertex="1" parent="r8zOLwxq6xb8gx_-kWiw-1">
+          <mxGeometry x="140" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zOLwxq6xb8gx_-kWiw-10" value="Tem" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontColor=#FFFFFF;fillColor=#3333FF;" vertex="1" parent="r8zOLwxq6xb8gx_-kWiw-1">
+          <mxGeometry x="339" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zOLwxq6xb8gx_-kWiw-11" value="Música" style="whiteSpace=wrap;html=1;align=center;fillColor=#0050ef;fontColor=#ffffff;fontStyle=1;strokeColor=#001DBC;" vertex="1" parent="r8zOLwxq6xb8gx_-kWiw-1">
+          <mxGeometry x="140" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zOLwxq6xb8gx_-kWiw-12" value="Tem" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontColor=#FFFFFF;fillColor=#3333FF;" vertex="1" parent="r8zOLwxq6xb8gx_-kWiw-1">
+          <mxGeometry x="130" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zOLwxq6xb8gx_-kWiw-13" value="Autor" style="whiteSpace=wrap;html=1;align=center;fillColor=#0050ef;fontColor=#ffffff;fontStyle=1;strokeColor=#001DBC;" vertex="1" parent="r8zOLwxq6xb8gx_-kWiw-1">
+          <mxGeometry x="540" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zOLwxq6xb8gx_-kWiw-14" value="Tem" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontColor=#FFFFFF;fillColor=#3333FF;" vertex="1" parent="r8zOLwxq6xb8gx_-kWiw-1">
+          <mxGeometry x="320" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zOLwxq6xb8gx_-kWiw-16" value="Grupo/Interprete" style="whiteSpace=wrap;html=1;align=center;fillColor=#0050ef;fontColor=#ffffff;fontStyle=1;strokeColor=#001DBC;" vertex="1" parent="r8zOLwxq6xb8gx_-kWiw-1">
+          <mxGeometry x="140" y="680" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zOLwxq6xb8gx_-kWiw-17" value="Música" style="whiteSpace=wrap;html=1;align=center;fillColor=#0050ef;fontColor=#ffffff;fontStyle=1;strokeColor=#001DBC;" vertex="1" parent="r8zOLwxq6xb8gx_-kWiw-1">
+          <mxGeometry x="570" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zOLwxq6xb8gx_-kWiw-18" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal ; text-align: justify ; text-indent: 0cm&quot;&gt;Música(códigoMúsica, &lt;/span&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal ; text-align: justify ; text-indent: 0cm&quot;&gt;título, autor, grupo/intérprete)&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="r8zOLwxq6xb8gx_-kWiw-1">
+          <mxGeometry x="50" y="350" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zOLwxq6xb8gx_-kWiw-33" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;fontColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="r8zOLwxq6xb8gx_-kWiw-1" source="r8zOLwxq6xb8gx_-kWiw-12" target="r8zOLwxq6xb8gx_-kWiw-11">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="190" y="530" as="sourcePoint" />
+            <mxPoint x="470" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8zOLwxq6xb8gx_-kWiw-34" value="" style="endArrow=none;html=1;rounded=0;fontColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="r8zOLwxq6xb8gx_-kWiw-1" source="r8zOLwxq6xb8gx_-kWiw-16" target="r8zOLwxq6xb8gx_-kWiw-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="600" as="sourcePoint" />
+            <mxPoint x="480" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8zOLwxq6xb8gx_-kWiw-36" value="" style="endArrow=none;html=1;rounded=0;fontColor=#000000;" edge="1" parent="r8zOLwxq6xb8gx_-kWiw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="440" as="sourcePoint" />
+            <mxPoint x="540" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8zOLwxq6xb8gx_-kWiw-37" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="r8zOLwxq6xb8gx_-kWiw-1" source="r8zOLwxq6xb8gx_-kWiw-14" target="r8zOLwxq6xb8gx_-kWiw-11">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="370" y="500" as="sourcePoint" />
+            <mxPoint x="470" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8zOLwxq6xb8gx_-kWiw-38" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="r8zOLwxq6xb8gx_-kWiw-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="340" y="240" as="sourcePoint" />
+            <mxPoint x="240" y="239.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8zOLwxq6xb8gx_-kWiw-39" value="" style="endArrow=none;html=1;rounded=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="r8zOLwxq6xb8gx_-kWiw-1" target="r8zOLwxq6xb8gx_-kWiw-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="239.5" as="sourcePoint" />
+            <mxPoint x="560" y="239.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
