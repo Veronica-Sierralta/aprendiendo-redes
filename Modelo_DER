@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T15:14:56.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" etag="u5apYF4g1sKSXVv66q32" version="16.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-03T15:23:59.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" etag="qBHy_Wma51SYdyV6No-i" version="16.6.5" type="github" pages="6">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="DER">
     <mxGraphModel dx="1038" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1141,11 +1141,17 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="1mGT_pgiUzpVwFZ-7IrU" name="Page-6">
-    <mxGraphModel dx="1038" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="1mGT_pgiUzpVwFZ-7IrU" name="Ex_01_BD_c">
+    <mxGraphModel dx="865" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="6vlMryfHulegmQDrSaSX-0" />
         <mxCell id="6vlMryfHulegmQDrSaSX-1" parent="6vlMryfHulegmQDrSaSX-0" />
+        <mxCell id="3-CXneMQzs4o1EbbBDOp-0" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;c)	Pretende-se criar uma base de dados para efetuar a gestão de uma empresa agrícola, onde seja registada informação relativa aos seus trabalhadores e à produção e venda. Sobre cada trabalhador pretende-se registar o seu número de identificação, nome, data de nascimento e especialidade. Sobre cada produto da exploração agrícola pretende-se conhecer o seu código, designação, área cultivada e qual o trabalhador responsável.  Em relação aos compradores, pretende-se conhecer o seu código, identificação, morada e telefone. Para cada produto vendido deverá ser registado o seu código, o código do comprador, a data, quantidade vendida, valor da venda e data do recebimento. Para cada matéria-prima pretende-se registar o seu código, designação e quantidade armazenada. Para a matéria-prima consumida pretende-se registar os códigos dos produtos a que esta se destina, o seu próprio código, a data da utilização e a quantidade utilizada.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;Em relação aos&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;fornecedores deve-se conhecer o seu código, identificação, morada e telefone.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;Para cada aquisição de matéria-prima deve-se conhecer o seu código, o código do&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;fornecedor, a data da compra, quantidade comprada, valor da compra e data de&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;pagamento.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="6vlMryfHulegmQDrSaSX-1">
+          <mxGeometry x="40" y="40" width="780" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="3-CXneMQzs4o1EbbBDOp-1" value="&lt;div&gt;Trabalhador(&lt;u&gt;id_trabalhador&lt;/u&gt;, nome, data_nascimento, especialidade )&lt;/div&gt;&lt;div&gt;Produção()&lt;/div&gt;&lt;div&gt;Produto(&lt;u&gt;id_produto,&lt;/u&gt; designação, área_cultivada&lt;u&gt;,&lt;/u&gt;responsavél, )&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6vlMryfHulegmQDrSaSX-1">
+          <mxGeometry x="40" y="200" width="780" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
