@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T15:23:59.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" etag="qBHy_Wma51SYdyV6No-i" version="16.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-03T16:14:41.055Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" etag="ZfJS7A4DXQlSzArEjXyK" version="16.6.5" type="github" pages="6">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="DER">
     <mxGraphModel dx="1038" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1146,11 +1146,83 @@
       <root>
         <mxCell id="6vlMryfHulegmQDrSaSX-0" />
         <mxCell id="6vlMryfHulegmQDrSaSX-1" parent="6vlMryfHulegmQDrSaSX-0" />
-        <mxCell id="3-CXneMQzs4o1EbbBDOp-0" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;c)	Pretende-se criar uma base de dados para efetuar a gestão de uma empresa agrícola, onde seja registada informação relativa aos seus trabalhadores e à produção e venda. Sobre cada trabalhador pretende-se registar o seu número de identificação, nome, data de nascimento e especialidade. Sobre cada produto da exploração agrícola pretende-se conhecer o seu código, designação, área cultivada e qual o trabalhador responsável.  Em relação aos compradores, pretende-se conhecer o seu código, identificação, morada e telefone. Para cada produto vendido deverá ser registado o seu código, o código do comprador, a data, quantidade vendida, valor da venda e data do recebimento. Para cada matéria-prima pretende-se registar o seu código, designação e quantidade armazenada. Para a matéria-prima consumida pretende-se registar os códigos dos produtos a que esta se destina, o seu próprio código, a data da utilização e a quantidade utilizada.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;Em relação aos&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;fornecedores deve-se conhecer o seu código, identificação, morada e telefone.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;Para cada aquisição de matéria-prima deve-se conhecer o seu código, o código do&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;fornecedor, a data da compra, quantidade comprada, valor da compra e data de&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;pagamento.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="6vlMryfHulegmQDrSaSX-1">
-          <mxGeometry x="40" y="40" width="780" height="170" as="geometry" />
+        <mxCell id="3-CXneMQzs4o1EbbBDOp-0" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;c)	Pretende-se criar uma base de dados para efetuar a gestão de uma empresa agrícola, onde seja registada informação relativa aos seus trabalhadores e à produção e venda.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;text-align: justify&quot;&gt;Sobre cada trabalhador pretende-se registar o seu número de identificação, nome, data de nascimento e especialidade.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: justify&quot;&gt;Sobre cada produto da exploração agrícola pretende-se conhecer o seu código, designação, área cultivada e qual o trabalhador responsável.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: justify&quot;&gt;Em relação aos compradores, pretende-se conhecer o seu código, identificação, morada e telefone.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: justify&quot;&gt;Para cada produto vendido deverá ser registado o seu código, o código do comprador, a data, quantidade vendida, valor da venda e data do recebimento.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: justify&quot;&gt;Para cada matéria-prima pretende-se registar o seu código, designação e quantidade armazenada.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: justify&quot;&gt;Para a matéria-prima consumida pretende-se registar os códigos dos produtos a que esta se destina, o seu próprio código, a data da utilização e a quantidade utilizada.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: justify ; text-indent: 0cm&quot;&gt;Em relação aos&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: justify ; text-indent: 0cm&quot;&gt;fornecedores deve-se conhecer o seu código, identificação, morada e telefone.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;Para cada aquisição de matéria-prima deve-se conhecer o seu código, o código do&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;fornecedor, a data da compra, quantidade comprada, valor da compra e data de&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: 0cm&quot;&gt;pagamento.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="6vlMryfHulegmQDrSaSX-1">
+          <mxGeometry x="30" y="10" width="780" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="3-CXneMQzs4o1EbbBDOp-1" value="&lt;div&gt;Trabalhador(&lt;u&gt;id_trabalhador&lt;/u&gt;, nome, data_nascimento, especialidade )&lt;/div&gt;&lt;div&gt;Produção()&lt;/div&gt;&lt;div&gt;Produto(&lt;u&gt;id_produto,&lt;/u&gt; designação, área_cultivada&lt;u&gt;,&lt;/u&gt;responsavél, )&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6vlMryfHulegmQDrSaSX-1">
-          <mxGeometry x="40" y="200" width="780" height="60" as="geometry" />
+        <mxCell id="3-CXneMQzs4o1EbbBDOp-1" value="&lt;div&gt;Trabalhador(&lt;u&gt;id_trabalhador&lt;/u&gt;, nome, data_nascimento, especialidade )&lt;/div&gt;&lt;div&gt;&lt;span&gt;Produto(&lt;/span&gt;&lt;u&gt;id_produto,&lt;/u&gt;&lt;span&gt; designação, área_cultivada&lt;/span&gt;&lt;u&gt;, id_trabalhador_&lt;/u&gt;&lt;u&gt;responsável &lt;/u&gt;&lt;span&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6vlMryfHulegmQDrSaSX-1">
+          <mxGeometry x="30" y="270" width="780" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3-CXneMQzs4o1EbbBDOp-2" value="Trabalhador" style="whiteSpace=wrap;html=1;align=center;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="6vlMryfHulegmQDrSaSX-1">
+          <mxGeometry x="110" y="360" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3-CXneMQzs4o1EbbBDOp-3" value="Produce" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="6vlMryfHulegmQDrSaSX-1">
+          <mxGeometry x="310" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3-CXneMQzs4o1EbbBDOp-4" value="Produto" style="whiteSpace=wrap;html=1;align=center;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="6vlMryfHulegmQDrSaSX-1">
+          <mxGeometry x="560" y="360" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SZZDHryiCLVFWqCmt34f-0" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="6vlMryfHulegmQDrSaSX-1" source="3-CXneMQzs4o1EbbBDOp-3" target="3-CXneMQzs4o1EbbBDOp-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="440" as="sourcePoint" />
+            <mxPoint x="290" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZZDHryiCLVFWqCmt34f-1" value="1" style="resizable=0;html=1;align=right;verticalAlign=bottom;strokeColor=default;" connectable="0" vertex="1" parent="SZZDHryiCLVFWqCmt34f-0">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZZDHryiCLVFWqCmt34f-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6vlMryfHulegmQDrSaSX-1" target="3-CXneMQzs4o1EbbBDOp-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="380" as="sourcePoint" />
+            <mxPoint x="590" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZZDHryiCLVFWqCmt34f-3" value="N" style="resizable=0;html=1;align=right;verticalAlign=bottom;strokeColor=default;" connectable="0" vertex="1" parent="SZZDHryiCLVFWqCmt34f-2">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Vnu8SjzRy3jngoOatst-0" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#320078;fontColor=#ffffff;strokeColor=#180059;spacing=2;" vertex="1" parent="6vlMryfHulegmQDrSaSX-1">
+          <mxGeometry x="200" y="360" width="4.12" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vnu8SjzRy3jngoOatst-1" value="Cliente" style="whiteSpace=wrap;html=1;align=center;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="6vlMryfHulegmQDrSaSX-1">
+          <mxGeometry x="110" y="490" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vnu8SjzRy3jngoOatst-2" value="Compra" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="6vlMryfHulegmQDrSaSX-1">
+          <mxGeometry x="310" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vnu8SjzRy3jngoOatst-3" value="&lt;div&gt;Cliente(&lt;u&gt;id_cliente&lt;/u&gt;, nome, morada, telefone)&lt;/div&gt;&lt;div&gt;Venda(&lt;u&gt;id_produto&lt;/u&gt;, &lt;u&gt;id_cliente&lt;/u&gt;, data_venda, quantidade, valor_venda, data_recebimento)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6vlMryfHulegmQDrSaSX-1">
+          <mxGeometry x="30" y="440" width="780" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vnu8SjzRy3jngoOatst-4" value="Produto" style="whiteSpace=wrap;html=1;align=center;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="6vlMryfHulegmQDrSaSX-1">
+          <mxGeometry x="560" y="490" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vnu8SjzRy3jngoOatst-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6vlMryfHulegmQDrSaSX-1" source="8Vnu8SjzRy3jngoOatst-2" target="8Vnu8SjzRy3jngoOatst-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="509.58" as="sourcePoint" />
+            <mxPoint x="250" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Vnu8SjzRy3jngoOatst-6" value="1" style="resizable=0;html=1;align=right;verticalAlign=bottom;strokeColor=default;" connectable="0" vertex="1" parent="8Vnu8SjzRy3jngoOatst-5">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Vnu8SjzRy3jngoOatst-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="6vlMryfHulegmQDrSaSX-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="510" as="sourcePoint" />
+            <mxPoint x="560" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Vnu8SjzRy3jngoOatst-8" value="N" style="resizable=0;html=1;align=right;verticalAlign=bottom;strokeColor=default;" connectable="0" vertex="1" parent="8Vnu8SjzRy3jngoOatst-7">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vnu8SjzRy3jngoOatst-10" value="MateriaPrima" style="whiteSpace=wrap;html=1;align=center;strokeColor=default;" vertex="1" parent="6vlMryfHulegmQDrSaSX-1">
+          <mxGeometry x="110" y="610" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vnu8SjzRy3jngoOatst-11" value="Compra" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="6vlMryfHulegmQDrSaSX-1">
+          <mxGeometry x="305" y="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
