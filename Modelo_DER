@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T09:37:23.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" etag="Hz3HxqhxvtvvHMVPnWYz" version="16.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-04T09:38:11.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" etag="xEBSw12E_BxBThPtwnWz" version="16.6.5" type="github" pages="6">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="DER">
     <mxGraphModel dx="1038" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1154,6 +1154,9 @@
         </mxCell>
         <mxCell id="3-CXneMQzs4o1EbbBDOp-3" value="Produce" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="6vlMryfHulegmQDrSaSX-1" vertex="1">
           <mxGeometry x="220" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jwidv9VmjkrbpwX336d0-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6vlMryfHulegmQDrSaSX-1" source="3-CXneMQzs4o1EbbBDOp-4" target="8Vnu8SjzRy3jngoOatst-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3-CXneMQzs4o1EbbBDOp-4" value="Produto" style="whiteSpace=wrap;html=1;align=center;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="6vlMryfHulegmQDrSaSX-1" vertex="1">
           <mxGeometry x="410" y="690" width="100" height="40" as="geometry" />
