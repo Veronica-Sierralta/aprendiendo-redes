@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T15:24:38.642Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36" etag="AgfCUC92aTm3DUXgZzBM" version="16.6.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-03-10T15:56:14.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36" etag="d19Dhrm5aQkf75TtA2iY" version="16.6.6" type="github" pages="11">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="DER">
     <mxGraphModel dx="1038" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -4209,7 +4209,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="35ol-vmHycJ9GX3ntGA4" name="Teste_01">
-    <mxGraphModel dx="782" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1117" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lg4YG-oQyH51DQVTmU4g-0" />
         <mxCell id="lg4YG-oQyH51DQVTmU4g-1" parent="lg4YG-oQyH51DQVTmU4g-0" />
@@ -4625,7 +4625,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lg4YG-oQyH51DQVTmU4g-98" value="Area" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="lg4YG-oQyH51DQVTmU4g-1">
-          <mxGeometry x="850" y="290" width="180" height="160" as="geometry" />
+          <mxGeometry x="850" y="300" width="180" height="160" as="geometry" />
         </mxCell>
         <mxCell id="lg4YG-oQyH51DQVTmU4g-99" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="lg4YG-oQyH51DQVTmU4g-98">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -4894,7 +4894,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lg4YG-oQyH51DQVTmU4g-213" value="Estudante" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="lg4YG-oQyH51DQVTmU4g-1">
-          <mxGeometry x="860" y="550" width="180" height="280" as="geometry" />
+          <mxGeometry x="850" y="480" width="180" height="280" as="geometry" />
         </mxCell>
         <mxCell id="lg4YG-oQyH51DQVTmU4g-214" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="lg4YG-oQyH51DQVTmU4g-213">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -5006,7 +5006,7 @@
             <mxPoint x="1160" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lg4YG-oQyH51DQVTmU4g-243" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;Area(&lt;u&gt;id_area&lt;/u&gt;, código, designação, observações)&lt;br&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Curso(&lt;u&gt;id_curso&lt;/u&gt;,código, designação, pré-requisitos, &lt;u&gt;id_area&lt;/u&gt;)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Disciplina(&lt;u&gt;id_disciplina&lt;/u&gt;, código, nome, créditos, pré_requisitos)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Disciplina/curso(&lt;u&gt;id_curso&lt;/u&gt;; código_curso, &lt;u&gt;id_disciplina&lt;/u&gt;, código_disciplina, ano, semestre, &lt;u&gt;id_professores&lt;/u&gt;, &lt;u&gt;id_sala&lt;/u&gt;)&lt;br&gt;&lt;/span&gt;Sala(id_sala, nome)&lt;br&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Professor(&lt;u&gt;id_professor&lt;/u&gt;, código, num_contribuinte, primeiro_nome, restantes_nomes, apelido, data_nascimento, habilitações, &lt;u&gt;id_departamento&lt;/u&gt;)&lt;br&gt;&lt;/span&gt;Departamento(&lt;u&gt;id_departamento&lt;/u&gt;, nome)&lt;br&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Estudante(&lt;u&gt;id_estudante&lt;/u&gt;, código, nome, núm_contribuinte, cartão_cidadão, data_nascimento, id_curso)&lt;/span&gt;&lt;br&gt;&lt;br style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="lg4YG-oQyH51DQVTmU4g-1">
+        <mxCell id="lg4YG-oQyH51DQVTmU4g-243" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;Area(&lt;u&gt;id_area&lt;/u&gt;, código, designação, observações)&lt;br&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Curso(&lt;u&gt;id_curso&lt;/u&gt;,código, designação, pré-requisitos, &lt;u&gt;id_area&lt;/u&gt;)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Disciplina(&lt;u&gt;id_disciplina&lt;/u&gt;, código, nome, créditos, pré_requisitos)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Disciplina/curso(&lt;u&gt;id_curso&lt;/u&gt;; código_curso, &lt;u&gt;id_disciplina&lt;/u&gt;, código_disciplina, ano, semestre, &lt;u&gt;id_professores&lt;/u&gt;, &lt;u&gt;id_sala&lt;/u&gt;)&lt;br&gt;&lt;/span&gt;Sala(id_sala, nome)&lt;br&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Professor(&lt;u&gt;id_professor&lt;/u&gt;, código, num_contribuinte, primeiro_nome, restantes_nomes, apelido, data_nascimento, habilitações, &lt;u&gt;id_departamento&lt;/u&gt;)&lt;br&gt;&lt;/span&gt;Departamento(&lt;u&gt;id_departamento&lt;/u&gt;, nome)&lt;br&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Estudante(&lt;u&gt;id_estudante&lt;/u&gt;, código, nome, apelido, núm_contribuinte, cartão_cidadão, data_nascimento, id_curso)&lt;/span&gt;&lt;br&gt;&lt;br style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="lg4YG-oQyH51DQVTmU4g-1">
           <mxGeometry x="30" y="200" width="720" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Vt1XdNGB2BAhWqDtnDe--0" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#320078;fontColor=#ffffff;strokeColor=#180059;spacing=2;" vertex="1" parent="lg4YG-oQyH51DQVTmU4g-1">
@@ -5018,6 +5018,14 @@
         <mxCell id="Vt1XdNGB2BAhWqDtnDe--3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#320078;fontColor=#ffffff;strokeColor=#180059;spacing=2;" vertex="1" parent="lg4YG-oQyH51DQVTmU4g-1">
           <mxGeometry x="424.12" y="860" width="4.12" height="40" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EHKDR6W-2o1z54pZg7lO" name="Página-11">
+    <mxGraphModel dx="1038" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="a2MMu5RP-xNCK26V2HTZ-0" />
+        <mxCell id="a2MMu5RP-xNCK26V2HTZ-1" parent="a2MMu5RP-xNCK26V2HTZ-0" />
       </root>
     </mxGraphModel>
   </diagram>
